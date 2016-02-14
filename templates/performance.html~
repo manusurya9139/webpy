@@ -1,0 +1,7 @@
+$def with (performance)
+<table>
+<tbody>
+<tr><h3>CPU USAGE : $performance['cpu']%</h3></tr>
+<tr><h3>MEMORY  : $performance['mem'] MB</h3></tr>
+</tbody>
+</table>

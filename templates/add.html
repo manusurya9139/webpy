@@ -1,0 +1,16 @@
+$def with (form)
+$var url: /books/add
+$var title : Add a book
+<div class="tab-pane content-area centered">
+    <h3>BOOKS</h3>
+    <ul class="nav nav-tabs">
+        <li><a href="/books/list">List Books</a></li>
+        <li><a href="/books/add">Add Book</a></li>
+        <li><a href="/books/delete">Delete Book</a></li>
+    </ul>
+    <div class="row-padding">
+        <form name="add" action="" method="post">
+            $:form
+        </form>
+    </div>
+</div>
