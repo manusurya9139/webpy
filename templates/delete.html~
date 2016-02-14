@@ -1,7 +1,0 @@
-$def with (book, form)
-
-
-<h1>Delete Book</h1>
-<form action="" method="post">
-$:form.render()
-</form>

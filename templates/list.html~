@@ -1,4 +1,0 @@
-$def with (book)
-
-<h1>$book.name</h1>
-

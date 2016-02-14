@@ -1,4 +1,0 @@
-$def with (book)
-
-<h1>$post.name</h1>
-$datestr(book.posted_on)<br/>
